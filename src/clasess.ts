@@ -1,7 +1,7 @@
 type UserId = string | number;
 
 // Abstract significa que uma classe não pode ser instanciada, mas pode ser extendida, isso é bom para 
-// criar uma classe modelo, assim depois basta extendela, e ela nao poderá ser extendida
+// criar uma classe modelo, assim depois basta extendela, e ela nao poderá ser instanciada.
 abstract class UserAccount {
 
     // atributo/metodo com protected podem ser acessado/alterados na classe e nas classes que estenderem essa classe
